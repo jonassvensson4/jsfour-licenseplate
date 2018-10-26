@@ -1,0 +1,36 @@
+@font-face {
+    font-family: roboto;
+    src: url('../fonts/robot/Roboto-Bold.woff');
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#plate {
+  position: absolute;
+  top: 300px;
+  left: 40%;
+  display: none;
+  background: url('../images/plate.png');
+  height: 189px;
+  width: 368px;
+  text-align: center;
+}
+input {
+  text-transform: uppercase;
+  text-align: center;
+  background: transparent;
+  border: none;
+  font-family: roboto;
+  font-size: 50px;
+  width: 342px;
+  padding-top: 90px;
+}
+input:focus {
+  outline: none;
+}
