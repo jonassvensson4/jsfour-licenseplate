@@ -5,7 +5,7 @@ A script that lets you create your own license plate and apply it to the nearest
 Please don't sell or reupload this resource
 
 ## INSTALLATION
-* You need to have <a href="https://github.com/ESX-Org/es_extended">es_extended</a> and <a href="https://github.com/ESX-Org/esx_vehicleshop">esx_vehicleshop</a> installed.
+* You need to have <a href="https://github.com/ESX-Org/es_extended">ESX</a> and <a href="https://github.com/ESX-Org/esx_vehicleshop">esx_vehicleshop</a> installed.
 * Rename the folder to **jsfour-licenseplate**
 * Run the SQL file
 
