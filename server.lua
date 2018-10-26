@@ -4,7 +4,7 @@ TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 -- UPDATE license plate to the database
 ESX.RegisterServerCallback('jsfour-licenseplate:update', function(source, cb, oldP, newP)
-  local oldplate = string.upper(tostring(oldP))
+  local oldplate = string.upper(tostring(oldP):match("^%s*(.-)%s*$"))
   local newplate = string.upper(newP)
   local xPlayer  = ESX.GetPlayerFromId(source)
   MySQL.Async.fetchAll('SELECT plate FROM owned_vehicles', {},
